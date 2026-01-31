@@ -1,0 +1,4 @@
+python yolo2coco.py
+python tools/train.py configs/detr_custom.py --work-dir work_dirs/detr
+python tools/test.py configs/detr_custom.py work_dirs/detr/epoch_50.pth --out work_dirs/preds.json
+python eval_custom.py

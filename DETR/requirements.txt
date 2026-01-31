@@ -1,0 +1,12 @@
+openmim
+mmcv==2.1.0
+mmengine
+mmdet
+opencv-python
+pyyaml
+numpy
+tqdm
+scikit-learn
+pycocotools
+onnx
+onnxruntime

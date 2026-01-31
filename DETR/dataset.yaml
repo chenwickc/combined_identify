@@ -1,0 +1,24 @@
+train: ../train/images
+val: ../val/images
+test: ../test/images
+
+nc: 17
+
+names:
+  0: 'Bicycle'
+  1: 'Bus'
+  2: 'Green'
+  3: 'Micro'
+  4: 'Motorcycle'
+  5: 'Orange'
+  6: 'Pedestrian'
+  7: 'Pickup'
+  8: 'Red'
+  9: 'SUV'
+  10: 'Sedan'
+  11: 'Tank truck'
+  12: 'Tow Truck'
+  13: 'Trailer truck'
+  14: 'Truck'
+  15: 'Unknow'
+  16: 'Van'
